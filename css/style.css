@@ -47,8 +47,12 @@
 }
 
 .bg-primary {
-  background-color: #333333;
-  color: #f7c08a;
+  color: #333333;
+  background: #f7c08a;
+}
+
+.clr {
+  clear: both;
 }
 
 .btn:hover {
@@ -162,4 +166,25 @@ p {
 #home-info,
 info-content {
   padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: #444444;
+  color: white;
+  padding: 20px;
 }
